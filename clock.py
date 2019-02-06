@@ -19,7 +19,6 @@ def timed_job():
         print(hostname, 'is up!')
     else:
         print(hostname, 'is down!')
-    print('This job is run every three minutes.')
 
 sched.start()
 
